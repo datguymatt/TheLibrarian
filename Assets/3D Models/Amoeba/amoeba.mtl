@@ -1,0 +1,8 @@
+# Amoeba material
+newmtl Amoeba_Mat
+Kd 0.8 0.9 0.85
+Ka 0.0 0.0 0.0
+Ks 0.05 0.05 0.05
+Ns 12.0
+d 1.0
+map_Kd amoeba_albedo.png

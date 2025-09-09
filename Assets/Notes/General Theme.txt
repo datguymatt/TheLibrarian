@@ -1,0 +1,35 @@
+August 23, 2025
+(General)
+-Psychedelic Platformer + Musical Dialogue Explorer that evolves as the player evolves in this testing simulation. As they determine what level of proficiency the player has, they determine what life form he is (displays on screen - something like "Current Species Prediction")
+-Puzzles to unlock things
+-Test your worth
+-Watch the system break down - pay attention for artifacts that indicate derangement
+
+
+(Tutorial - Level 1 - Energy)
+"Current Species Prediction - Particle"
+-you are nothing, and somehow you desire to form
+-you are patient, things don't happen overnight (player must learn to fight the urge to want to move, wait for your chance to build up potential energy)
+-once ready, you will be ready to press up against the others
+
+
+(Tutorial - Level 2 Amoeba)
+"Current Species Prediction - Amoeba"
+-You are floating through a pool of liquid, dancing amongst other amoeba life forms. 
+-You must eat the smaller amoebas to get larger. You must not simple float along with the current
+-that is your first detector - instinct for self preservation
+-Once the player reaches a certain size, they are big enough for the next set of tests
+
+(Level 3 -Monkey)
+-How well do you play with others?
+-Add the ability to punch the group of monkeys in front of him
+
+(Level 4 - Human)
+You wake up. You are alive. That's right. You know that now. You are something, something close to human, we predict. Let's run some tests to see if you are:
+-calculate movement accuracy, speed
+-determine level of agility
+-Understand their impulses - when moving platforms come, will you wait for the right time, or jump at the wrong time based on instinct?
+
+(Level 5)
+As you go along through these tests, we will provide you with upgrades. Complete enough tests and you can advance yourself - mind and body. 
+-Before and after testing, feel free t
