@@ -1,47 +1,18 @@
-using System.Collections;
 using UnityEngine;
 
 public class GameManager : MonoBehaviour
 {
-    public static GameManager instance;
+    public static GameManager Instance;
+    public PlayerPersistentData playerData;
 
-    //state and global properties
-    
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
+    private void Awake()
     {
-        //sub to any events
-
-        // Check if an instance already exists
-        if (instance != null && instance != this)
+        if (Instance == null)
         {
-            // If a duplicate exists, destroy this new instance
-            Destroy(gameObject);
-        }
-        else
-        {
-            // If no instance exists, set this as the instance
-            instance = this;
-            // Optionally, make the object persist across scene loads
+            Instance = this;
             DontDestroyOnLoad(gameObject);
-
+            playerData = SaveSystem.Load();
         }
-
-        //queue start game sequence
-        StartCoroutine(StartScene());
+        else Destroy(gameObject);
     }
-
-    IEnumerator StartScene()
-    {
-        //load saved data for player - transfer it to the next scene
-        //declare the start of current scene as an event
-        yield return new WaitForSeconds(2);
-    }
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-
-    
 }

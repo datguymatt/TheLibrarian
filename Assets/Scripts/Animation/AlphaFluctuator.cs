@@ -28,7 +28,7 @@ public class AlphaFluctuator : MonoBehaviour
             Renderer renderer = GetComponent<Renderer>();
             if (renderer != null)
             {
-                _material = renderer.material; // unique instance
+                _material = renderer.material; // unique Instance
                 _originalColor = _material.color;
             }
             else

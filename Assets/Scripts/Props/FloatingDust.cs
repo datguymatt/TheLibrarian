@@ -41,7 +41,7 @@ public class FloatingDust : MonoBehaviour
         rotationAxis = Random.onUnitSphere;
         rotationSpeed = Random.Range(rotationSpeedMin, rotationSpeedMax);
 
-        // Get material instance (avoid editing shared material)
+        // Get material Instance (avoid editing shared material)
         Renderer rend = GetComponent<Renderer>();
         if (rend != null)
         {
