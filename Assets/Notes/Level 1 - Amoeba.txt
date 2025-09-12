@@ -1,0 +1,5 @@
+Start:
+-some kind of an intro needed - perhaps a simulated big bang type explosion thing that fades to black, then a swooshing sfx into fading the camera in with a crazy visual effect
+
+Tasks:
+-first - get an introduction to who the librarian is as you explore the map - introduction to the text system
