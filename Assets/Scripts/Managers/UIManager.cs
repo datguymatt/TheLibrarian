@@ -25,6 +25,7 @@ public class UIManager : MonoBehaviour
 
     public void UpdateNarrationText(string text)
     {
+        //start a co-routine
         narrationText.text = text;
     }
 
