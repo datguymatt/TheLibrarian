@@ -39,17 +39,21 @@ public class AmoebaController : MonoBehaviour
     private Vector3 stretchedCamScale;
     private bool isRareBurst = false;
 
+    [Header("Gravity and current Effects")]
+    [SerializeField] float gravityAmount = 3f;
+    [SerializeField] float currentFlowZAmount = 0f;
+    [SerializeField] float currentFlowXAmount = 0f;
+
     void Start()
     {
         rb = GetComponent<Rigidbody>();
-        rb.useGravity = false;
         rb.linearDamping = 0f;
         rb.angularDamping = 0f;
 
         Cursor.lockState = CursorLockMode.Locked;
         Cursor.visible = false;
 
-        Physics.gravity = new Vector3(0, -2, 0);
+        Physics.gravity = new Vector3(currentFlowXAmount, -2, currentFlowZAmount);
 
         if (cameraTransform != null)
         {
